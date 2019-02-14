@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DIY Blog</title>
+    <link>https://diyblog.me/categories/</link>
+    <description>Recent content in Categories on DIY Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 -0800</lastBuildDate>
+    
+	<atom:link href="https://diyblog.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automotive</title>
+      <link>https://diyblog.me/categories/automotive/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
+      
+      <guid>https://diyblog.me/categories/automotive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://diyblog.me/categories/diy/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
+      
+      <guid>https://diyblog.me/categories/diy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

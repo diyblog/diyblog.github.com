@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://diyblog.me/"
+        },
+        "articleSection" : "post",
+        "name" : "Uninterruptible 5v USB Power Supply",
+        "headline" : "Uninterruptible 5v USB Power Supply",
+        "description" : "<p>There&rsquo;s a wide range of USB powered devices around an average tech enthusiast: phones, tablets, Raspberry Pies, flashlights and electronic cigarettes. My <a href="https://amzn.to/2GJ6qkj">hand-held electric screwdriver</a> can be charged from USB nowadays.</p>",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2016",
+        "datePublished": "2016-11-05 18:25:22 -0800 -0800",
+        "dateModified" : "2016-11-05 18:25:22 -0800 -0800",
+        "url" : "https://diyblog.me/post/uninterruptible-5v-usb-power-supply/",
+        "wordCount" : "1018",
+        "image" : https://diyblog.me/img/ups5v/bg.jpg",
+        "keywords" : [ "raspberry pi","dashcam","xiaomi","power bank","5V","USB","power supply","UPS","relays","battery","DIY","Blog" ]   
+    }
+    </script>
+
+
+ <title>Uninterruptible 5v USB Power Supply </title>
+
+
+<meta name="description" content="Cheap and Fun DIY Projects" />
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" id="ct-tracks-google-fonts-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" href="https://diyblog.me/css/font-awesome.min.css" type='text/css' media='all'>
+
+<link href="https://diyblog.me/css/style.css" rel="stylesheet" id="theme-stylesheet" type='text/css' media='all'>
+
+<link href="https://diyblog.me/css/custom.css" rel="stylesheet" type='text/css' media='all'>
+<link rel="shortcut icon" href="https://diyblog.me/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://diyblog.me/img/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+
+  <div id="overflow-container" class="overflow-container">
+    <a class="skip-content" href="#main">Skip to content</a>
+    <header id="site-header" class="site-header" role="banner">
+      <div class='top-navigation'>
+        <div class='container'>
+
+  <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
+    <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
+
+    <div class="menu">
+
+      <ul id="menu-secondary-items" class="menu-secondary-items">
+        
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="/categories/automotive">Automotive</a>
+        </li>
+        
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="/categories/diy">DIY</a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+  <ul class="social-media-icons">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+  </ul></div>
+
+      </div>
+
+      <div class="container">
+        <div id="title-info" class="title-info">
+  <div id='site-title' class='site-title'>
+    
+    <a href="/"> DIY Blog </a>
+    </div>
+  </div>
+  <button id="toggle-navigation" class="toggle-navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+  <div id="menu-primary" class="menu-container menu-primary" role="navigation">
+    
+    <p class="site-description">Cheap &amp; Fun DIY Projects</p>
+    
+
+    <div class="menu">
+      <ul id="menu-primary-items" class="menu-primary-items">
+        
+        
+        <li id="menu-item" class='menu-item menu-item-type-custom menu-item-object-custom '>
+          <a href="https://diyblog.me/">Home</a>
+          
+        </li>
+        
+        <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page '>
+          <a href="https://diyblog.me/about/">About</a>
+          
+        </li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+      </div>
+    </header>
+
+    <div id="main" class="main" role="main">
+
+      
+  
+  
+    
+  
+  
+  <div id="loop-container" class="loop-container">
+    
+    <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
+
+      <div class='featured-image lazy lazy-bg-image'  data-background="https://diyblog.me/img/ups5v/bg.jpg">
+      </div>
+      
+        <div class="entry-meta">
+          <span class="date">05 November</span>	<span> / </span>
+
+          <span class="author">
+            <a href="https://diyblog.me" title="Posts by DIY Blog" rel="author">DIY Blog</a>
+          </span>
+
+
+          
+          <span class="category">
+            <span> / </span>
+
+            <a href="/categories/DIY">DIY</a>
+          </span>
+          
+          <span class="category">
+            <span> / </span>
+
+            <a href="/categories/Automotive">Automotive</a>
+          </span>
+          
+
+
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'> Uninterruptible 5v USB Power Supply</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <p>There&rsquo;s a wide range of USB powered devices around an average tech enthusiast: phones, tablets, Raspberry Pies, flashlights and electronic cigarettes. My <a href="https://amzn.to/2GJ6qkj">hand-held electric screwdriver</a> can be charged from USB nowadays.</p>
+
+<p>We can probably survive (or not) without our phones being constantly on. However, some of our USB gadgets rely heavily on uninterrupted supply of 5V input voltage: Raspberry Pies, dash cameras, smartphones used as CCTV, etc. They can be equipped with internal batteries and can withstand short-time power interruptions (like smartphones), but when it comes to battery-less devices (e.g. Raspberry Pi) or frequent power outages (dash cams in our cars), truly uninterrupted power is a must.</p>
+
+<p>Of course, ready-to-go off-the-shelf standardized-certified products are always an option, whether it&rsquo;s <a href="https://amzn.to/2GGyzbB">specialized UPS extension board</a> for Raspberry Pi, <a href="https://amzn.to/2N21XtV">Power Magic Battery Pack</a> for dash cam in your car, or <a href="https://amzn.to/2WWcImg">110V UPS with USB charging port</a> for pretty much any 5VDC/110VAC powered device. However, there&rsquo;s a cheaper (and fun) way of putting a few simple components together achieving the same goal for a fraction of price.</p>
+
+<p>In my case, I&rsquo;m building uninterrupted power supply for <a href="https://amzn.to/2E4sST8">Xiaomi Yi dashcam</a> in my car. I&rsquo;m using similar setup for Raspberry Pi running my home media center (I trip my 15A brakers way too often in my house).</p>
+
+<p>Let&rsquo;s take a look at what will we need for this 30-minutes project (all images are clickable):</p>
+
+<p><center>
+<a href="/img/ups5v/components.jpg" target="_blank"><img src="/img/ups5v/components-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<ul>
+<li><a href="https://amzn.to/2E3pjMM">2-channel DC 5V relay (<strong>$6.79</strong>)</a></li>
+<li><a href="https://amzn.to/2GBP3S9">USB extension cable (<strong>$4.99</strong>)</a></li>
+<li><a href="https://amzn.to/2GmYkOQ">Micro-USB charging cable (<strong>$4.99</strong>)</a></li>
+<li><a href="https://amzn.to/2E5CsVF">10,000 mAh power bank ($<strong>$31.99</strong>)</a></li>
+<li><a href="https://amzn.to/2GDPhIo">Dupont Jumper Wires (pack of 120) (<strong>$6.78</strong>)</a></li>
+<li><a href="https://amzn.to/2DxFGQj">5-conductor lever-nuts connectors (pack of 40) (<strong>$9.45</strong>)</a> (optional)</li>
+</ul>
+
+<p>Your total is going to stay below $50, or if you have a power bank to reuse, below $25.</p>
+
+<h2 id="how-does-it-work">How does it work</h2>
+
+<p>The idea is to simply switch the USB power from normal source (wall plug power supply or 12V car USB adapter) to a backup (power bank). We also need to keep the power bank charged from the normal source, when it&rsquo;s available. Hence, we need 2-channel relay: controlling both nominal source power line and backup power line.</p>
+
+<p>Schematic is so simple, it fits into one post-it sticker:</p>
+
+<p><center>
+<a href="/img/ups5v/diagram.jpg" target="_blank"><img src="/img/ups5v/diagram-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<h2 id="cut-strip-crimp-repeat">Cut, strip, crimp, repeat</h2>
+
+<p>We need to make four connections to the relay:</p>
+
+<ul>
+<li>normal power input</li>
+<li>backup power input</li>
+<li>consumer output</li>
+<li>power bank output</li>
+</ul>
+
+<p>Simply cut tails from both cables, approx. 10&rdquo; each.</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/cables_cut_1.jpg" target="_blank">
+<img src="/img/ups5v/cables_cut_1-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/cables_cut_2.jpg" target="_blank">
+<img src="/img/ups5v/cables_cut_2-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>These cable tails will be connecting the relay with power source, power bank and our gadget (dash cam, in my case).</p>
+
+<p><center>
+<a href="/img/ups5v/tails.jpg" target="_blank"><img src="/img/ups5v/tails-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>Now prepare the wires. Carefully strip the outer insulation first (wire stripper will be really helpful here).</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/outer_stripping.jpg" target="_blank"><img src="/img/ups5v/outer_stripping-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/outer_stripped.jpg" target="_blank"><img src="/img/ups5v/outer_stripped-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>Now remove the shielding (foil or wire mesh wrapped around wires) and make your ends look tidy. We only need black and red wires (power), two other ones and the shield (uninsulated wire) can be removed or left under the heat shrink.</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/tails_prepped.jpg" target="_blank"><img src="/img/ups5v/tails_prepped-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/tails_shrinked.jpg" target="_blank"><img src="/img/ups5v/tails_shrinked-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>Now strip black and red wires. I&rsquo;ve also crimped them for better connection, you can use some solder as well.</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/tails_stripped.jpg" target="_blank"><img src="/img/ups5v/tails_stripped-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/tails_crimped.jpg" target="_blank"><img src="/img/ups5v/tails_crimped-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>We need three female Dupont connectors shortened together for controlling both relays and supplying ground signal to the relay board. So just cut female ends from jumper wires and strip them.</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/dupont_cutting.jpg" target="_blank"><img src="/img/ups5v/dupont_cutting-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/dupont_stripped.jpg" target="_blank"><img src="/img/ups5v/dupont_stripped-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>Twist them all together. Make them tidy (use heat shrink or electric tape). Crimp/solder as you see fit.</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/dupont_twisted.jpg" target="_blank"><img src="/img/ups5v/dupont_twisted-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/dupont_crimped.jpg" target="_blank"><img src="/img/ups5v/dupont_crimped-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>Another Dupont connector goes to the VCC pin. Simply repeat last steps!</p>
+
+<p><center>
+<a href="/img/ups5v/dupont_jumper.jpg" target="_blank"><img src="/img/ups5v/dupont_jumper-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>Prepare a short jumper wire for interconnecting relays&hellip;</p>
+
+<p><center>
+<div style="display:flex;margin-bottom:1em;"><div style="flex:1;padding-right:1px;">
+<!-- first img begin -->
+<a href="/img/ups5v/jumper_wire_1_stripped.jpg" target="_blank"><img src="/img/ups5v/jumper_wire_1_stripped-lo.jpg" style="width:80%"></a>
+<!-- first img end -->
+</div><div style="flex:1;padding-left:1px;">
+<!-- second img begin -->
+<a href="/img/ups5v/jumper_wire_1_crimped.jpg" target="_blank"><img src="/img/ups5v/jumper_wire_1_crimped-lo.jpg" style="width:80%"></a>
+<!-- second img end -->
+</div></div>
+</center></p>
+
+<p>and make them two.</p>
+
+<p><center>
+<a href="/img/ups5v/jumper_wire_2.jpg" target="_blank"><img src="/img/ups5v/jumper_wire_2-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>We&rsquo;re all set to start the assembly!</p>
+
+<p><center>
+<a href="/img/ups5v/before_assembly.jpg" target="_blank"><img src="/img/ups5v/before_assembly-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<h2 id="assembly">Assembly</h2>
+
+<p>Simply follow the diagram.</p>
+
+<p>Let&rsquo;s lay down both busbars (I&rsquo;m using lever-nut connectors here, you can just twist the wires together) and our relay module. Connect positive busbar to <code>VCC</code> pin using Dupont jumper and negative busbar to <code>IN1</code>, <code>IN2</code> and <code>G</code> pins using our Dupont splitter-jumper.</p>
+
+<p><center>
+<a href="/img/ups5v/assembly_0.jpg" target="_blank"><img src="/img/ups5v/assembly_0-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>Now we&rsquo;re connecting positive busbar with <code>COM1</code> relay terminal using first jumper wire and shortening terminals <code>NO1</code> and <code>NC2</code> using the second one.</p>
+
+<p><center>
+<a href="/img/ups5v/assembly_1.jpg" target="_blank"><img src="/img/ups5v/assembly_1-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>It&rsquo;s time to connect various USB cables. Starting with main power cable (that&rsquo;ll be connection to the wall plug power supply or 12V car adapter). Negative wire goes to negative busbar, positive wire - to positive busbar.</p>
+
+<p><center>
+<a href="/img/ups5v/assembly_2.jpg" target="_blank"><img src="/img/ups5v/assembly_2-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>Now the power output cable (to be connected to our USB device). Negative wire goes to negative busbar, positive wire goes to <code>NC2</code> terminal of the relay board (together with already connected jumper wire).</p>
+
+<p><center>
+<a href="/img/ups5v/assembly_3.jpg" target="_blank"><img src="/img/ups5v/assembly_3-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>Next we are connecting charging cable for power bank (this one will keep power bank charged when there is normal power available). Negative wire goes to negative busbar, positive wire goes to positive busbar.</p>
+
+<p><center>
+<a href="/img/ups5v/assembly_4.jpg" target="_blank"><img src="/img/ups5v/assembly_4-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>And the last step is to connect power bank discharge cable (this one will supply power to our USB device when normal power is not available). Negative wire goes (surprise) to negative busbar, positive wire - to <code>COM2</code> terminal of the relay board.</p>
+
+<p><center>
+<a href="/img/ups5v/assembly_5.jpg" target="_blank"><img src="/img/ups5v/assembly_5-lo.jpg" style="width:80%"></a>
+</center></p>
+
+<p>We&rsquo;re done! Our very own 5V uninterruped power supply is ready to go.</p>
+
+<h2 id="testing">Testing</h2>
+
+<p>I&rsquo;m testing this setup here using my dash camera while connecting and disconnecting external 5V power supply to the relay (i.e. simulating a power outage). You can hear switching relay and see switching modes of power bank (IN/OUT). Power indicator on the dashcam (red LED) stays on, confirming that we achieved our goal!</p>
+
+<p><center>
+<video controls loop preload="auto" style=" width:520px;  height:520px;"><source src="/img/ups5v/animation.mp4" type="video/mp4">Your browser does not support the HTML5 video tag.</video>
+</center></p>
+
+<h2 id="battery-life">Battery life</h2>
+
+<p>Let&rsquo;s say I&rsquo;m using <code>10,000 mAh</code> power bank for running this dash camera. Current consumption of the camera itself varies in the range of <code>200 mA..400 mA</code> when recording with the screen off. Averaging this for an hour of recording, I&rsquo;ve got <code>315 mA</code>.</p>
+
+<p><center>
+<video controls loop preload="auto" style=" width:520px;  height:390px;"><source src="/img/ups5v/current_dashcam.mp4" type="video/mp4">Your browser does not support the HTML5 video tag.</video>
+</center></p>
+
+<p>That gives <code>10,000 mA*hr / 315 mA = 31.7 hr</code> of recording. Make sure your SD card is of enough capacity :)</p>
+
+<h2 id="faq">FAQ</h2>
+
+<ul>
+<li><em>Can I simply connect charging and discharging cables directly to the power bank?</em>
+No. Power banks cannot manage both charging and discharging simultaneously (unlike specialized UPS units).</li>
+<li><em>Aren&rsquo;t Dupont jumper wires too thin for power applications?</em> They are only used as signal wires for opening/closing relays (currents less than 50&nbsp;mA).</li>
+<li><em>Why <code>IN1</code> and <code>IN2</code> relay contacts are connected to the ground?</em> This relay board is of NPN logic (active-low), therefore <code>IN1</code> and <code>IN2</code> must be pulled to ground to activate relays.</li>
+</ul>
+            </article>
+          </div>
+          
+      <div class='entry-meta-bottom'>
+        
+
+  <div class="entry-categories"><p><span>Categories</span>
+    
+    <a href="/categories/diy" title="View all posts in DIY">DIY</a>
+    <a href="/categories/automotive" title="View all posts in Automotive">Automotive</a>
+  </p>
+</div>
+
+
+
+<div class="entry-tags"><p><span>Tags</span>
+  
+  <a href="/tags/raspberry-pi" title="View all posts tagged raspberry pi">raspberry pi</a>
+  
+  <a href="/tags/dashcam" title="View all posts tagged dashcam">dashcam</a>
+  
+  <a href="/tags/xiaomi" title="View all posts tagged xiaomi">xiaomi</a>
+  
+  <a href="/tags/power-bank" title="View all posts tagged power bank">power bank</a>
+  
+  <a href="/tags/5v" title="View all posts tagged 5V">5V</a>
+  
+  <a href="/tags/usb" title="View all posts tagged USB">USB</a>
+  
+  <a href="/tags/power-supply" title="View all posts tagged power supply">power supply</a>
+  
+  <a href="/tags/ups" title="View all posts tagged UPS">UPS</a>
+  
+  <a href="/tags/relays" title="View all posts tagged relays">relays</a>
+  
+  <a href="/tags/battery" title="View all posts tagged battery">battery</a>
+  
+  <a href="/tags/diy" title="View all posts tagged DIY">DIY</a>
+  
+
+</p></div>	</div>
+
+	
+<div class="author-meta">
+
+  <div class="author">
+    	
+      <img alt='DIY Blog' src="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=100&d=identicon" class='avatar avatar-72 photo' height='72' width='72'>
+    
+    <span>
+      Written by:<a href="https://diyblog.me" title="Posts by DIY Blog" rel="author">DIY Blog</a> </span>
+    </div>
+    <div class="bio">
+      
+      
+      <p></p>
+        
+      
+	
+      
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+<section id="comments" class="comments">
+  
+
+  
+
+
+
+
+</section>
+</div>
+
+ 
+
+
+
+    </div>
+
+    <footer id="site-footer" class="site-footer" role="contentinfo">
+	<h1>
+    
+    <a href=""> DIY Blog </a>
+    
+	</h1>
+
+			
+			<p class="site-description">Cheap &amp; Fun DIY Projects</p>
+			
+
+		<div id="menu-footer" class="menu-container menu-footer" role="navigation">
+		<div class="menu">
+
+      <ul id="menu-footer-items" class="menu-footer-items">
+        
+</ul>
+
+</div>	</div>
+
+<ul class="social-media-icons">
+
+        
+
+        
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+        
+
+
+        
+
+        
+
+				</ul>	<div class="design-credit">
+		
+		<p>&copy; 2019 <a href="https://diyblog.me">DIYBlog.me</a></p>
+		
+		<p>Nederburg Hugo Theme by <a href="https://appernetic.io">Appernetic</a>.</p>
+		
+	</div>
+</footer>
+
+  </div>
+  <script src="https://diyblog.me/js/jquery.min.js"></script>
+<script src="https://diyblog.me/js/jquerymigrate.js"></script>
+<script src="https://diyblog.me/js/production.min.js"></script>
+
+</body>
+</html>

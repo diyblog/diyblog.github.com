@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>relays on DIY Blog</title>
+    <link>https://diyblog.me/tags/relays/</link>
+    <description>Recent content in relays on DIY Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 -0800</lastBuildDate>
+    
+	<atom:link href="https://diyblog.me/tags/relays/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uninterruptible 5v USB Power Supply</title>
+      <link>https://diyblog.me/post/uninterruptible-5v-usb-power-supply/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
+      
+      <guid>https://diyblog.me/post/uninterruptible-5v-usb-power-supply/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a wide range of USB powered devices around an average tech enthusiast: phones, tablets, Raspberry Pies, flashlights and electronic cigarettes. My &lt;a href=&#34;https://amzn.to/2GJ6qkj&#34;&gt;hand-held electric screwdriver&lt;/a&gt; can be charged from USB nowadays.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
