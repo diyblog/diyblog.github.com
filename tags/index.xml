@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DIY Blog</title>
@@ -21,33 +21,6 @@
     </item>
     
     <item>
-      <title>DIY</title>
-      <link>https://diyblog.me/tags/diy/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
-      
-      <guid>https://diyblog.me/tags/diy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UPS</title>
-      <link>https://diyblog.me/tags/ups/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
-      
-      <guid>https://diyblog.me/tags/ups/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>USB</title>
-      <link>https://diyblog.me/tags/usb/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
-      
-      <guid>https://diyblog.me/tags/usb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>battery</title>
       <link>https://diyblog.me/tags/battery/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
@@ -62,6 +35,15 @@
       <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
       
       <guid>https://diyblog.me/tags/dashcam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://diyblog.me/tags/diy/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
+      
+      <guid>https://diyblog.me/tags/diy/</guid>
       <description></description>
     </item>
     
@@ -98,6 +80,24 @@
       <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
       
       <guid>https://diyblog.me/tags/relays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UPS</title>
+      <link>https://diyblog.me/tags/ups/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
+      
+      <guid>https://diyblog.me/tags/ups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>USB</title>
+      <link>https://diyblog.me/tags/usb/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 -0800</pubDate>
+      
+      <guid>https://diyblog.me/tags/usb/</guid>
       <description></description>
     </item>
     

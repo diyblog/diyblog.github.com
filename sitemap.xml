@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -13,105 +13,88 @@
   </url>
   
   <url>
+    <loc>https://diyblog.me/</loc>
+    <lastmod>2019-02-10T15:25:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://diyblog.me/tags/5v/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://diyblog.me/categories/automotive/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/categories/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/tags/diy/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/categories/diy/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/post/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/tags/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/tags/ups/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://diyblog.me/tags/usb/</loc>
-    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/battery/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/categories/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/dashcam/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/tags/diy/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/categories/diy/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/post/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/power-bank/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/power-supply/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/raspberry-pi/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/relays/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/tags/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/tags/ups/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diyblog.me/tags/usb/</loc>
+    <lastmod>2016-11-05T18:25:22-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://diyblog.me/tags/xiaomi/</loc>
     <lastmod>2016-11-05T18:25:22-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
